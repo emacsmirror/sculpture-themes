@@ -5,8 +5,8 @@
 ;; Author: Precompute <git@precompute.net>
 ;; URL: https://github.com/precompute/sculpture-theme
 ;; Created: January 06, 2021
-;; Modified: September 12, 2026
-;; Version: 1.17
+;; Modified: September 17, 2026
+;; Version: 1.18
 
 ;; Local variables:
 ;; package-lint-main-file: "sculpture-themes.el"
@@ -427,6 +427,24 @@
    `(+org-todo-onhold  ((,class (:inherit (bold fixed-pitch) :underline (:color ,ha04 :line-width -1)))))
    `(+org-todo-active  ((,class (:inherit (bold fixed-pitch) :underline (:color ,ha01 :line-width -1)))))
    `(+org-todo-project ((,class (:inherit (bold fixed-pitch) :underline (:color ,ot00 :line-width -1)))))
+
+;;;;;; ansi-color
+   `(ansi-color-black          ((,class (:foreground ,ha09))))
+   `(ansi-color-red            ((,class (:foreground ,ha00))))
+   `(ansi-color-green          ((,class (:foreground ,ot01))))
+   `(ansi-color-yellow         ((,class (:foreground ,cs02))))
+   `(ansi-color-blue           ((,class (:foreground ,ha01))))
+   `(ansi-color-magenta        ((,class (:foreground ,ot09))))
+   `(ansi-color-cyan           ((,class (:foreground ,ot07))))
+   `(ansi-color-white          ((,class (:foreground ,cs01))))
+   `(ansi-color-bright-black          ((,class (:foreground ,bg))))
+   `(ansi-color-bright-red            ((,class (:foreground ,cs00))))
+   `(ansi-color-bright-green          ((,class (:foreground ,ot04))))
+   `(ansi-color-bright-yellow         ((,class (:foreground ,ha04))))
+   `(ansi-color-bright-blue           ((,class (:foreground ,ot05))))
+   `(ansi-color-bright-magenta        ((,class (:foreground ,ot19))))
+   `(ansi-color-bright-cyan           ((,class (:foreground ,ot21))))
+   `(ansi-color-bright-white          ((,class (:foreground ,fg))))
 
 ;;;;;; ido
    `(ido-subdir            ((,class (:foreground ,bw13))))
