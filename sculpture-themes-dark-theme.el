@@ -5,8 +5,8 @@
 ;; Author: Precompute <git@precompute.net>
 ;; URL: https://github.com/precompute/sculpture-theme
 ;; Created: January 06, 2021
-;; Modified: September 17, 2026
-;; Version: 1.18
+;; Modified: September 19, 2026
+;; Version: 1.19
 
 ;; Local variables:
 ;; package-lint-main-file: "sculpture-themes.el"
@@ -759,6 +759,12 @@
    `(ediff-even-diff-C ((,class (:background ,ot13))))
    `(ediff-even-diff-B ((,class (:background ,ot06))))
    `(ediff-even-diff-A ((,class (:background ,ot06))))
+
+;;;;;; Hyperbole
+   `(ibut-face      ((,class (:background ,cs01 :foreground ,ot05 :box (:line-width (3 . 3) :color ,cs00 :style released-button)))))
+   `(hbut-flash     ((,class (:background ,cs01 :foreground ,ot20 :box (:line-width (3 . 3) :color ,cs00 :style released-button)))))
+   `(hbut-face      ((,class (:background ,cs01 :foreground ,cs00 :box (:line-width (3 . 3) :color ,cs00 :style released-button)))))
+   `(hbut-item-face ((,class (:background ,cs01 :foreground ,ot04 :box (:line-width (3 . 3) :color ,cs00 :style released-button)))))
 
 ;;;;;; vertico
    `(vertico-current     ((,class (:underline (:line-width -1 :color ,ot04) :inherit (bold)))))
